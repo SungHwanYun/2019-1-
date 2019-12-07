@@ -29,7 +29,6 @@ int N, K;
 vector<customer> V;
 int main() {
 	int i;
-	freopen("C:\\알고리즘\\코딩\\google\\a.txt", "r", stdin);
 	scanf("%d%d\n", &N, &K);
 	V = vector<customer>(N);
 	for (i = 0; i < N; i++) {
